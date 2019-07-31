@@ -1,0 +1,35 @@
+Questao 1 - 
+
+Caso Base: Retorna 1, se n <= 1.
+Passo Recursivo: Retorna n ∗ f (n − 1).
+Complexidade: Linear - O(n).
+
+Questão 2 - 
+
+Caso Base: Retorna n, se n < 2.
+Passo Recursivo: Retorna f(n - 1) + f(n - 2).
+Complexidade: Linear - O(n).
+
+Questão 3 - 
+
+Caso Base: Retorna vet[0], se n = 1.
+Passo Recursivo: Retorna vet[n - 1] + f(vet, n - 1).
+Complexidade: Linear - O(n).
+
+Questão 4 - 
+
+Caso Base: Retorna 1, se n = 1.
+Passo Recursivo: Retorna n + f(n - 1).
+Complexidade: Linear - O(n).
+
+Questão 5 - 
+
+Caso Base: Retorna 0, se a = 0 OU b = 0. Retorna a, se b = 1.  
+Passo Recursivo: Retorna a + f(a, b - 1).
+Complexidade: Linear - O(n).
+
+Questão 6 - 
+
+Caso Base: Retorna 0, se n = 0; 1, se n = 1; 2, se n = 2.
+Passo Recursivo: Retorna 3 * f(number - 1) + 4 * f(number - 2).
+Complexidade: Linear - O(n).
