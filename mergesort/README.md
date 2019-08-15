@@ -2,7 +2,8 @@
 
 #### Criando um algoritmo de ordenação Merge Sort e criando a classe de testes.
 
-´´´
+```bash
+
 COMPLEXIDADE:
 
 T(1) = c
@@ -21,4 +22,4 @@ T(n) = 4T(n/4) + c.n
 
 T(n) = 2^k.T(n/2^k) + k.c.n
 
-´´´
+```
